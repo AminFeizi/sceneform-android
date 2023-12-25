@@ -45,7 +45,7 @@ final class RenderingResources {
       case PLANE_MATERIAL:
         return LoadHelper.rawResourceNameToIdentifier(context, "sceneform_plane_material");
       case PLANE:
-        return LoadHelper.drawableResourceNameToIdentifier(context, "sceneform_plane");
+        return LoadHelper.drawableResourceNameToIdentifier(context, "file_example");
       case VIEW_RENDERABLE_MATERIAL:
         return LoadHelper.rawResourceNameToIdentifier(context, "sceneform_view_material");
     }
@@ -71,7 +71,7 @@ final class RenderingResources {
       case PLANE_MATERIAL:
         return LoadHelper.resourceToUri(context, R.raw.sceneform_plane_material);
       case PLANE:
-        return LoadHelper.resourceToUri(context, R.drawable.sceneform_plane);
+        return LoadHelper.resourceToUri(context, R.drawable.file_example);
       case VIEW_RENDERABLE_MATERIAL:
         return LoadHelper.resourceToUri(context, R.raw.sceneform_view_material);
     }
